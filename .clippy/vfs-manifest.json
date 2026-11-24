@@ -1,0 +1,121 @@
+[
+  {
+    "path": "App.tsx",
+    "file": {
+      "file_name": "/mnt/data/src/App.tsx",
+      "storage_handle": "",
+      "storage_type": "BASE64"
+    }
+  },
+  {
+    "path": "assets/icon_AplastaZetas.png",
+    "file": {
+      "file_name": "/mnt/data/.krabby/agentic_web_artifacts/agentic_artifact_1/52ccb226a52a/assets/icon_AplastaZetas.png",
+      "storage_handle": "",
+      "storage_type": "EVERSTORE",
+      "mime": "image/png",
+      "href": "https://cdn.fbsbx.com/v/t65.102178-21/874465564_2038391223489286_3294622997078449278_n.jpg/zeta_icon_v3_yellow_cutout.png?_nc_ht=cdn.fbsbx.com&_nc_ohc=nvTdiGKclw0Q7kNvwHOM9Tm&sdl=0&ccb=14-4&oh=00_AQTclPwtKGwSn0_ZkfpmGWqJgsNzqcGDFReKzCHg1gSWXA&oe=6B2853BE&_nc_sid=4ee932",
+      "source_identifiers": [
+        {
+          "type": "typed_fbid",
+          "value": {
+            "fbid": 1446643558538613,
+            "fbtype": 67656
+          }
+        },
+        {
+          "type": "typed_fbid",
+          "value": {
+            "fbid": 1446665761869726,
+            "fbtype": 67656
+          }
+        },
+        {
+          "type": "typed_fbid",
+          "value": {
+            "fbid": 1455547735992079,
+            "fbtype": 71334
+          }
+        },
+        {
+          "type": "url",
+          "value": "https://www.h.metaaiusercontent.com/app/maiwa-p-91791a67963a5ad5c8ae5123298c4de734fd953bb06f85fc/actions"
+        },
+        {
+          "type": "url",
+          "value": "https://www.h.metaaiusercontent.com/app/maiwa-pf-600bf62b3af73a66a5253a75d2edecf75d84d1a99d706c6b/actions"
+        },
+        {
+          "type": "url",
+          "value": "safetynet_input_media://c5034510d71c4dd195232287ee63533e"
+        }
+      ],
+      "source_tools": [
+        "container.build_react_artifact",
+        "container.create",
+        "container.create_web_artifact_agent_stateful",
+        "container.edit_file",
+        "container.image_gen",
+        "container.shell",
+        "container.validate_react_artifact",
+        "media.generate_image",
+        "skills.load_skill"
+      ],
+      "media_origin": "SCRIPT"
+    }
+  },
+  {
+    "path": "index.css",
+    "file": {
+      "file_name": "/mnt/data/.krabby/agentic_web_artifacts/agentic_artifact_1/52ccb226a52a/index.css",
+      "storage_handle": "",
+      "storage_type": "BASE64",
+      "source_identifiers": [
+        {
+          "type": "typed_fbid",
+          "value": {
+            "fbid": 1446643558538613,
+            "fbtype": 67656
+          }
+        },
+        {
+          "type": "typed_fbid",
+          "value": {
+            "fbid": 1446665761869726,
+            "fbtype": 67656
+          }
+        },
+        {
+          "type": "typed_fbid",
+          "value": {
+            "fbid": 1455547735992079,
+            "fbtype": 71334
+          }
+        },
+        {
+          "type": "url",
+          "value": "https://www.h.metaaiusercontent.com/app/maiwa-p-91791a67963a5ad5c8ae5123298c4de734fd953bb06f85fc/actions"
+        },
+        {
+          "type": "url",
+          "value": "https://www.h.metaaiusercontent.com/app/maiwa-pf-600bf62b3af73a66a5253a75d2edecf75d84d1a99d706c6b/actions"
+        },
+        {
+          "type": "url",
+          "value": "safetynet_input_media://c5034510d71c4dd195232287ee63533e"
+        }
+      ],
+      "source_tools": [
+        "container.build_react_artifact",
+        "container.create",
+        "container.create_web_artifact_agent_stateful",
+        "container.edit_file",
+        "container.image_gen",
+        "container.shell",
+        "container.validate_react_artifact",
+        "media.generate_image",
+        "skills.load_skill"
+      ]
+    }
+  }
+]

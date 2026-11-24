@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@700;800;900&display=swap');
+/*@tailwind base;
+@tailwind components;
+@tailwind utilities;*/
+@import "tailwindcss";
+
+:root{
+  --bg:#123f1e;
+  --surface:#fffdf3;
+  --surface-2:#e9f7d4;
+  --ink:#172a18;
+  --muted:#5a6d58;
+  --primary:#ff4d6d;
+  --primary-2:#ffb703;
+  --green:#2f9e44;
+  --green-dark:#1b6b2e;
+  --grass:#7ac74f;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0e2f16;
+    --surface:#fffdf3;
+    --surface-2:#e9f7d4;
+    --ink:#172a18;
+    --muted:#5a6d58;
+    --primary:#ff4d6d;
+    --primary-2:#ffb703;
+    --green:#2f9e44;
+    --green-dark:#1b6b2e;
+  }
+}
+*{ -webkit-tap-highlight-color: transparent; }
+html,body,#root{ height:100%; margin:0; overscroll-behavior:none; }
+body{ font-family:'Nunito',system-ui,sans-serif; background:var(--bg); color:var(--ink); overflow:hidden; }
+.font-display{ font-family:'Baloo 2','Nunito',system-ui,sans-serif; }
+@keyframes wiggle{ 0%,100%{ transform:rotate(-7deg) scale(1);} 50%{ transform:rotate(7deg) scale(1.08);} }
+@keyframes floaty{ 0%,100%{ transform:translateY(0);} 50%{ transform:translateY(-8px);} }
+@keyframes popIn{ 0%{ transform:scale(.4) rotate(-10deg); opacity:0;} 60%{ transform:scale(1.25) rotate(4deg); opacity:1;} 100%{ transform:scale(1) rotate(0);} }
+@keyframes puff{ 0%{ transform:translate(-50%,-50%) scale(.6); opacity:1;} 100%{ transform:translate(-50%,-140%) scale(1.35); opacity:0;} }
+@keyframes starBurst{ 0%{ transform:translate(-50%,-50%) scale(.5) rotate(0deg); opacity:1;} 100%{ transform:translate(-50%,-50%) scale(1.6) rotate(25deg); opacity:0;} }
+@keyframes grassSway{ 0%,100%{ transform:rotate(-3deg);} 50%{ transform:rotate(3deg);} }
+@keyframes bounceSoft{ 0%,100%{ transform:translateY(0);} 50%{ transform:translateY(-6px);} }
+.mush{ animation:wiggle .55s ease-in-out infinite; filter:drop-shadow(0 10px 0 rgba(0,0,0,.18)); }
+.mush:active{ transform:scale(.88); }
+.pop{ animation:puff .85s ease-out forwards; }
+.burst{ animation:starBurst .65s ease-out forwards; }
+.floaty{ animation:floaty 2.4s ease-in-out infinite; }
+.no-select{ user-select:none; -webkit-user-select:none; }
